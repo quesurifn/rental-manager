@@ -1,13 +1,9 @@
 const properties  = (state = [], action) => {
     switch (action.type) {
-      case 'ADD_PROPERTY':
+      case 'SUCCESS':
         return [
           ...state,
-          {
-            id: action.id,
-            text: action.text,
-            completed: false
-          }
+          action.payload
         ]
       default:
         return state
