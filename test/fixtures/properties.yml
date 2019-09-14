@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: 
+  address1: 
+  address2: 
+  city: 
+  state: 
+  purchase_price: 
+  rental_price: 1.5
+
+two:
+  name: 
+  address1: 
+  address2: 
+  city: 
+  state: 
+  purchase_price: 
+  rental_price: 1.5
